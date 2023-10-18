@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/assets/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.71/pdfmake.min.js"></script> <!-- Biblioteca para gerar PDF -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.71/vfs_fonts.js"></script> <!-- Biblioteca para gerar PDF -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> <!-- Referenciamento dos ícones-->
+    <title>Sorteio de Vagas de Garagem com Unidades de Apartamento</title>
+
+</head>
+<body>
+    <header>
+        <h1>Sorteio de Vagas por Apartamento</h1>
+        <div>
+            <input type="text" id="searchInput" placeholder="Digite o número da unidade">
+            <button onclick="buscarUnidade()"><i class="fas fa-search"></i>Buscar</button>
+        </div>
+    </header>
+
+    <div class="container">
+        <button onclick="realizarSorteio()"><i class="fas fa-dice"></i>Realizar Sorteio</button>
+        <button onclick="exportarParaPDF()"><i class="fas fa-file-pdf"></i>Exportar para PDF</button>
+        <p id="sorteioDataHora"></p>
+        <h2>Resultados do Sorteio:</h2>
+        <h3>Vagas Individuais</h3>
+        <ul id="vagasIndividuais"></ul>
+        <h3>Vagas Duplas</h3>
+        <ul id="vagasDuplas"></ul>
+        <h3>Vagas Triplas</h3>
+        <ul id="vagasTriplas"></ul>
+    </div>
+    <script src="/assets/script.js"></script>
+</body>
+</html>
