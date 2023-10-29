@@ -118,6 +118,7 @@ li:nth-child(even) {
 
 /* ===== FOOTER =====*/
 .footer {
+    margin-top: 0.5rem;
     background-color: #016161;
     color: #fff;
     text-align: center;
