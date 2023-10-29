@@ -123,8 +123,7 @@ li:nth-child(even) {
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
-    padding: 1rem 0;
-    height: 84px;
+    padding: 0.5rem;
     position: fixed;
     bottom: 0px;
     width: 100%;
