@@ -141,6 +141,10 @@ li:nth-child(even) {
     color: #fff;
     margin: 0 var(--mb-2);
   }
+
+  .footer__icon:hover {
+    color: black;
+  }
   
   .footer__copy {
     font-size: var(--smaller-font-size);
