@@ -124,9 +124,10 @@ li:nth-child(even) {
     font-weight: var(--font-semi);
     padding: 2rem 0;
   }
+
   
   .footer__title {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-bottom: var(--mb-4);
     margin-top: 0rem;
   }
